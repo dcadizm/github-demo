@@ -1,1 +1,19 @@
-Test git quick start demo
+clonar: permite traerse un repositorio desde el internek a mi sistema local
+GIT clone https://github.com/dcadizm/github-demo.git
+
+Status: cashar en que estado esta la vaina
+git status
+
+ADD: agrega el cambio al local
+git add file.txt
+
+Commit: pasa el cambio que has hecho desde el local al staging. en el staging se acumulan los cambios en lso archivos pa despues continuar su flujo
+git commit -m "este es el comentario del cambio que estoy haciendo"
+
+push: lanza los xambios comiteados a la internek
+--origin: remote home
+--master: nombre del branch al que pushearas
+git push origin master
+user dcadizm
+pass github***3R
+
