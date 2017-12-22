@@ -6,6 +6,7 @@ git status
 
 ADD: agrega el cambio al local
 git add file.txt
+git add . ==> agrega todos los archivos con cambios
 
 Commit: pasa el cambio que has hecho desde el local al staging. en el staging se acumulan los cambios en lso archivos pa despues continuar su flujo
 git commit -m "este es el comentario del cambio que estoy haciendo"
@@ -18,4 +19,13 @@ user dcadizm
 pass github***3R
 
 shapala
+
+-- Partir un pnuevo projecto sin repositorio previamente existente
+git init nombredelproyecto ==> crea un nuevo repositorio con el nombre
+
+crear alrchivo 
+ndd nombre.extension
+git add file
+commit guardara el cambio en el local
+si no haces un push no se va a la internek remember that
 
