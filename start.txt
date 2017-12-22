@@ -61,6 +61,15 @@ git ls-files lista los archivs erackeados en este repositorio
 fome la wa
 
 -- recursive add - agrega caleta de archivos rapidamente
+git add . agregara todos los archivos de forma recursiva desde este nivel
+
+-- backing out changes . oops no queria hacer eso
+que pasa si hice un cambio al file en mi lado, y quiero devovler en cambio en stage
+git reset HEAD nombredelarchivo
+descartar los cambios en mi directorio local
+git checkout -- nombre del archivio
+
+-- moving and renamig files in GIT
 
 
 
