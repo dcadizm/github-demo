@@ -29,3 +29,38 @@ git add file
 commit guardara el cambio en el local
 si no haces un push no se va a la internek remember that
 
+-- Agregar git control a un proyecto existente
+fome la wa simplmente crea el directorio, sbe los files y hacele un git init simple sin nombre
+git init 
+y listoko
+
+--unirse a un proyecto existente
+desde la pagina haces un FORK sobre el proyecto esto crea una copia del repositorio pero en mi propia cuenta
+luego lo clonamos a nuestro sistema local desde el https
+desde el directorio general de proyectos 
+git clone https://github.com/dcadizm/starter-web.git
+asegurar que sale mi nombre de usuario en la url
+entrar al directorio ahora
+y estará descargado a mi local
+
+
+-- Eorkflow basico ADD, COMMIT, PUSH
+
+*WORKING DIRECTORY >add> STAGING AREA >commit> REPOSITORY >push> REMOTE*
+
+PULL
+git pull origin master, actualiza el repositorio desde la internet hacia el nuestro
+siempre hacer un pull antes de hacer un push
+
+shortcut el add y comiteados
+git commit -am "message"
+solo se peude hacer con archivos tagueados para seguir es decir archivos que ya se hana agregado al prceso, no servirá si lo acabo de crear en el local
+git ls-files lista los archivs erackeados en este repositorio
+
+-- EDITING FILES
+fome la wa
+
+-- recursive add - agrega caleta de archivos rapidamente
+
+
+
